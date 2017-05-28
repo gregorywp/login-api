@@ -1,0 +1,9 @@
+{
+  "name": "login-api",
+  "version": "1.0.0",
+  "description": "API to show a method for secure logins",
+  "author": "GP",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
