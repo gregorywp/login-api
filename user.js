@@ -27,7 +27,7 @@ function User() {
 										}, userSecret, { expiresIn: 60 * 60 * 24 })
 							});
 						} else {
-							res.send('Password is incorrect');
+							res.send({error: 'Password is incorrect'});
 						}
 					});
 				}
